@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA_FINAL.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/LinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Arrayspassinginfunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Basics_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/MultiDimensionalArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Arrays_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Arrays_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Check_occurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fibonacci_series.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Functions/Armstrong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Functions/Overloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Functions/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Functions/Scopes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Functions/Shadowing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Functions/Varargs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Functions/basics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Methods/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Methods/ReturnType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Methods/Reverse_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Methods/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Printing_number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Salary_check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checking_case.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ZLMb7FkCvI6J8X0TO8N2rirxig" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Armstrong.executor": "Run",
+    "Application.Arrays_01.executor": "Run",
+    "Application.Arrays_02.executor": "Run",
+    "Application.Arrayspassinginfunction.executor": "Run",
+    "Application.Basics_01.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.Calculator.executor": "Run",
+    "Application.Check_occurance.executor": "Run",
+    "Application.Fibonacci_series.executor": "Run",
+    "Application.LinearSearch.executor": "Run",
+    "Application.MultiDimensionalArrays.executor": "Run",
+    "Application.Overloading.executor": "Run",
+    "Application.Prime.executor": "Run",
+    "Application.PrimeNumber.executor": "Run",
+    "Application.Printing_number.executor": "Run",
+    "Application.ReturnType.executor": "Run",
+    "Application.Reverse.executor": "Run",
+    "Application.Reverse_2.executor": "Run",
+    "Application.Shadowing.executor": "Run",
+    "Application.Sum.executor": "Run",
+    "Application.Varargs.executor": "Run",
+    "Application.basics.executor": "Run",
+    "Application.checking_case.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Hp/IdeaProjects/DSA_FINAL",
+    "onboarding.tips.debug.path": "C:/Users/Hp/IdeaProjects/DSA_FINAL/src/Main.java"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Arrays_02">
+    <configuration name="Arrays_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.Arrays_01" />
+      <module name="DSA_FINAL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndArraylist.Udemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arrays_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.Arrays_02" />
+      <module name="DSA_FINAL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndArraylist.Udemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arrayspassinginfunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Arrayspassinginfunction" />
+      <module name="DSA_FINAL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndArraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Basics_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Basics_01" />
+      <module name="DSA_FINAL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndArraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiDimensionalArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.MultiDimensionalArrays" />
+      <module name="DSA_FINAL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndArraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Arrays_02" />
+        <item itemvalue="Application.Arrays_01" />
+        <item itemvalue="Application.MultiDimensionalArrays" />
+        <item itemvalue="Application.Arrayspassinginfunction" />
+        <item itemvalue="Application.Basics_01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-8336523bb0d9-657b72ed" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="" />
+      <created>1702196978148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702196978148</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>3</line>
+          <properties class="Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Salary_check.java</url>
+          <line>3</line>
+          <properties class="Salary_check" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Printing_number.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
