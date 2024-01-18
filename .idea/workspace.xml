@@ -4,39 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA_FINAL.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Arrayspassinginfunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Basics_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/MultiDimensionalArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Arrays_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Arrays_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Check_occurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fibonacci_series.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/Armstrong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/Overloading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/Prime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/Scopes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/Shadowing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/Varargs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Functions/basics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methods/PrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methods/ReturnType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methods/Reverse_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methods/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Printing_number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Salary_check.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/checking_case.java" afterDir="false" />
+    <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/ArrayListMulti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/ArrayList_Examples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/MinElementChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/NestedArray_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/NestedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/ReverseArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Swap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Varargs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/multiAl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Arrays_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Arrays_02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +46,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Armstrong.executor": "Run",
+    "Application.ArrayListMulti.executor": "Run",
+    "Application.ArrayList_Examples.executor": "Run",
     "Application.Arrays_01.executor": "Run",
     "Application.Arrays_02.executor": "Run",
     "Application.Arrayspassinginfunction.executor": "Run",
@@ -74,19 +57,27 @@
     "Application.Check_occurance.executor": "Run",
     "Application.Fibonacci_series.executor": "Run",
     "Application.LinearSearch.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MinElementChallenge.executor": "Run",
     "Application.MultiDimensionalArrays.executor": "Run",
+    "Application.NestedArray_2.executor": "Run",
+    "Application.NestedArrays.executor": "Run",
     "Application.Overloading.executor": "Run",
     "Application.Prime.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
     "Application.Printing_number.executor": "Run",
     "Application.ReturnType.executor": "Run",
     "Application.Reverse.executor": "Run",
+    "Application.ReverseArrayList.executor": "Run",
     "Application.Reverse_2.executor": "Run",
     "Application.Shadowing.executor": "Run",
+    "Application.Sort.executor": "Run",
     "Application.Sum.executor": "Run",
+    "Application.Swap.executor": "Run",
     "Application.Varargs.executor": "Run",
     "Application.basics.executor": "Run",
     "Application.checking_case.executor": "Run",
+    "Application.multiAl.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -101,9 +92,9 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Arrays_02">
-    <configuration name="Arrays_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.Arrays_01" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ArrayListMulti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.ArrayListMulti" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.Arrays_02" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.Main" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
@@ -128,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrayspassinginfunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Arrayspassinginfunction" />
+    <configuration name="ReverseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.ReverseArrayList" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysAndArraylist.*" />
+          <option name="PATTERN" value="ArraysAndArraylist.Udemy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Basics_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Basics_01" />
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.Sort" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysAndArraylist.*" />
+          <option name="PATTERN" value="ArraysAndArraylist.Udemy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiDimensionalArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.MultiDimensionalArrays" />
+    <configuration name="Swap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.Swap" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysAndArraylist.*" />
+          <option name="PATTERN" value="ArraysAndArraylist.Udemy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Arrays_02" />
-        <item itemvalue="Application.Arrays_01" />
-        <item itemvalue="Application.MultiDimensionalArrays" />
-        <item itemvalue="Application.Arrayspassinginfunction" />
-        <item itemvalue="Application.Basics_01" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ArrayListMulti" />
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.Swap" />
+        <item itemvalue="Application.ReverseArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +184,15 @@
       <option name="presentableId" value="Default" />
       <updated>1702196978148</updated>
     </task>
+    <task id="LOCAL-00001" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1705227858227</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705227858227</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +205,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java basics and DSA" />
+    <option name="LAST_COMMIT_MESSAGE" value="java basics and DSA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
