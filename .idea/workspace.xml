@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/ArrayListMulti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/ArrayList_Examples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/MinElementChallenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/NestedArray_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/NestedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/ReverseArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Swap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Varargs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/multiAl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Arrays_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Arrays_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +48,7 @@
     "Application.Fibonacci_series.executor": "Run",
     "Application.LinearSearch.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
     "Application.MinElementChallenge.executor": "Run",
     "Application.MultiDimensionalArrays.executor": "Run",
     "Application.NestedArray_2.executor": "Run",
@@ -92,7 +83,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main2">
     <configuration name="ArrayListMulti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.ArrayListMulti" />
       <module name="DSA_FINAL" />
@@ -119,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.ReverseArrayList" />
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.Main2" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
@@ -160,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ArrayListMulti" />
         <item itemvalue="Application.Sort" />
         <item itemvalue="Application.Swap" />
-        <item itemvalue="Application.ReverseArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705227858227</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1705578928363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705578928363</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
