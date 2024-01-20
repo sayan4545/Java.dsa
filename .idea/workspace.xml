@@ -23,6 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -32,56 +35,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Armstrong.executor": "Run",
-    "Application.ArrayListMulti.executor": "Run",
-    "Application.ArrayList_Examples.executor": "Run",
-    "Application.Arrays_01.executor": "Run",
-    "Application.Arrays_02.executor": "Run",
-    "Application.Arrayspassinginfunction.executor": "Run",
-    "Application.Basics_01.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.Calculator.executor": "Run",
-    "Application.Check_occurance.executor": "Run",
-    "Application.Fibonacci_series.executor": "Run",
-    "Application.LinearSearch.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Main2.executor": "Run",
-    "Application.MinElementChallenge.executor": "Run",
-    "Application.MultiDimensionalArrays.executor": "Run",
-    "Application.NestedArray_2.executor": "Run",
-    "Application.NestedArrays.executor": "Run",
-    "Application.Overloading.executor": "Run",
-    "Application.Prime.executor": "Run",
-    "Application.PrimeNumber.executor": "Run",
-    "Application.Printing_number.executor": "Run",
-    "Application.ReturnType.executor": "Run",
-    "Application.Reverse.executor": "Run",
-    "Application.ReverseArrayList.executor": "Run",
-    "Application.Reverse_2.executor": "Run",
-    "Application.Shadowing.executor": "Run",
-    "Application.Sort.executor": "Run",
-    "Application.Sum.executor": "Run",
-    "Application.Swap.executor": "Run",
-    "Application.Varargs.executor": "Run",
-    "Application.basics.executor": "Run",
-    "Application.checking_case.executor": "Run",
-    "Application.multiAl.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Hp/IdeaProjects/DSA_FINAL",
-    "onboarding.tips.debug.path": "C:/Users/Hp/IdeaProjects/DSA_FINAL/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Armstrong.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListMulti.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayList_Examples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Arrays_01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Arrays_02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Arrayspassinginfunction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Basics_01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Check_occurance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacci_series.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinElementChallenge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiDimensionalArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NestedArray_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NestedArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Overloading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Printing_number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReturnType.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverse_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Shadowing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Swap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Varargs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.basics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.checking_case.executor&quot;: &quot;Run&quot;,
+    &quot;Application.multiAl.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hp/IdeaProjects/DSA_FINAL&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Hp/IdeaProjects/DSA_FINAL/src/Main.java&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main2">
     <configuration name="ArrayListMulti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.ArrayListMulti" />
@@ -198,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705617891561</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1705718156005</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705718156005</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
