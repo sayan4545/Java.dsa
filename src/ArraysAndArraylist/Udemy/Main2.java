@@ -38,6 +38,26 @@ public class Main2 {
         for(String str : nextList){
             System.out.print(str+ " ");
         }
+        System.out.println();
+
+        nextList.removeAll(List.of("Pickles","Coffee","Bread"));
+        System.out.println(nextList);
+
+        nextList.retainAll(List.of("Cucumber","Eggs","Mangoes"));
+        System.out.println(nextList);
+
+        nextList.clear();
+        System.out.println(nextList);
+        nextList.addAll(List.of("Eggs","Ham","Jam","Cheese"));
+        nextList.addAll(Arrays.asList("Banana","Pineapple","Berries"));
+        System.out.println(nextList);
+
+        nextList.sort(Comparator.naturalOrder());
+        System.out.println(nextList);
+
+        nextList.sort(Comparator.reverseOrder());
+        System.out.println(nextList);
+
 
 
 
