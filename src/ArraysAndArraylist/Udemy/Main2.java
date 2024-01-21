@@ -75,15 +75,6 @@ public class Main2 {
 //        newList.addAll(newList2);
 //        newList.addAll(Arrays.asList(150,250,350));
 //        System.out.println(newList);
-
-
-
-        
-
-
-
-
-
     }
 
 }
