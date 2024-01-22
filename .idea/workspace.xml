@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Challenge1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Grocery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/ArraListChallenge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/List.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Armstrong.executor": "Run",
+    "Application.ArraListChallenge.executor": "Run",
     "Application.ArrayListMulti.executor": "Run",
     "Application.ArrayList_Examples.executor": "Run",
     "Application.Arrays_01.executor": "Run",
@@ -79,6 +78,7 @@
     "Application.multiAl.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Hp/IdeaProjects/DSA_FINAL",
@@ -91,9 +91,9 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.List">
-    <configuration name="ArrayListMulti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.ArrayListMulti" />
+  <component name="RunManager" selected="Application.ArraListChallenge">
+    <configuration name="ArraListChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.ArraListChallenge" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraListChallenge" />
         <item itemvalue="Application.List" />
         <item itemvalue="Application.Challenge1" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.ArrayListMulti" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705718945186</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1705871619370</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705871619370</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
