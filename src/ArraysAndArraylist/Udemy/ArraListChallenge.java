@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class ArraListChallenge {
 
-    private static Scanner scanner = new Scanner(System.in);
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
 
@@ -28,11 +28,9 @@ public class ArraListChallenge {
 
         System.out.println("Add item(s) [separate items by comma]:");
         String[] items = scanner.nextLine().split(",");
-//        groceries.addAll(List.of(items));
-
         for (String i: items) {
             String trimmed = i.trim();
-            if (groceries.indexOf(trimmed) < 0) {
+            if (!groceries.contains(trimmed)) {
                 groceries.add(trimmed);
             }
         }
@@ -60,6 +58,6 @@ public class ArraListChallenge {
                 2 - to remove any items (comma delimited list)
                                 
                 Enter a number for which action you want to do:""";
-        System.out.print(textBlock + " ");
+        System.out.print(STR."\{textBlock} ");
     }
 }
