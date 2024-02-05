@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/MobilePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Contact2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/Mobile2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList_Stacks_Queues/Basics_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/MobilePhoneChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysAndArraylist/Udemy/MobilePhoneChallenge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +72,7 @@
     &quot;Application.Sort.executor&quot;: &quot;Run&quot;,
     &quot;Application.Sum.executor&quot;: &quot;Run&quot;,
     &quot;Application.Swap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
     &quot;Application.Varargs.executor&quot;: &quot;Run&quot;,
     &quot;Application.basics.executor&quot;: &quot;Run&quot;,
     &quot;Application.checking_case.executor&quot;: &quot;Run&quot;,
@@ -91,13 +92,26 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Basics_01">
     <configuration name="ArraListChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.ArraListChallenge" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ArraysAndArraylist.Udemy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Basics_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList_Stacks_Queues.Basics_01" />
+      <module name="DSA_FINAL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList_Stacks_Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +145,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.Main" />
-      <module name="DSA_FINAL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndArraylist.Udemy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.Test" />
       <module name="DSA_FINAL" />
@@ -159,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Basics_01" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ArraListChallenge" />
         <item itemvalue="Application.List" />
         <item itemvalue="Application.Challenge1" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706045034621</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1706115659883</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706115659883</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
