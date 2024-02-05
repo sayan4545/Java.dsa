@@ -16,7 +16,8 @@ public class Basics_01 {
         //removeElements(places2visit);
         places2visit.push("Ohio");
         System.out.println(places2visit);
-        getElement(places2visit);
+        //getElement(places2visit);
+        printItinery(places2visit);
     }
     public static void addmoreelements(LinkedList<String> places2visit){//Deque methods
         places2visit.addFirst("Chittaranjan");
@@ -53,7 +54,17 @@ public class Basics_01 {
         System.out.println(STR."index of ohio is: \{list.indexOf("Ohio")}");
         System.out.println(list.isEmpty());
         System.out.println(STR."last position of Ohio is \{list.lastIndexOf("Ohio")}");
+        //queue retrieval methods
+        System.out.println(list.element());
+        //stack retrieval methods
+        System.out.println(list.peek());
+        System.out.println(list.peekFirst());
+        System.out.println(list.peekLast());
 
 
+    }
+    public static void printItinery(LinkedList<String> list){
+        System.out.println(STR."Trip starts at --> \{list.peek()}");
+        System.out.println(STR."Trip ends at --> \{list.peekLast()}");
     }
 }
