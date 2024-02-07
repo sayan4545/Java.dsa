@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
+      <change afterPath="$PROJECT_DIR$/src/LinkedList_Stacks_Queues/LinkedListChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Basics_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/NumbersExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/NumbersExample_Recursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedList_Stacks_Queues/Basics_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_Stacks_Queues/Basics_01.java" afterDir="false" />
     </list>
@@ -35,75 +39,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Armstrong.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraListChallenge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListMulti.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayList_Examples.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Arrays_01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Arrays_02.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Arrayspassinginfunction.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Basics_01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Challenge1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Check_occurance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fibonacci_series.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.List.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinElementChallenge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiDimensionalArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NestedArray_2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NestedArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Overloading.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Prime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimeNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Printing_number.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReturnType.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reverse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Reverse_2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Shadowing.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Swap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Varargs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.basics.executor&quot;: &quot;Run&quot;,
-    &quot;Application.checking_case.executor&quot;: &quot;Run&quot;,
-    &quot;Application.multiAl.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hp/IdeaProjects/DSA_FINAL&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Hp/IdeaProjects/DSA_FINAL/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Armstrong.executor": "Run",
+    "Application.ArraListChallenge.executor": "Run",
+    "Application.ArrayListMulti.executor": "Run",
+    "Application.ArrayList_Examples.executor": "Run",
+    "Application.Arrays_01.executor": "Run",
+    "Application.Arrays_02.executor": "Run",
+    "Application.Arrayspassinginfunction.executor": "Run",
+    "Application.Basics_01.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.Calculator.executor": "Run",
+    "Application.Challenge1.executor": "Run",
+    "Application.Check_occurance.executor": "Run",
+    "Application.Fibonacci_series.executor": "Run",
+    "Application.LinearSearch.executor": "Run",
+    "Application.LinkedListChallenge.executor": "Run",
+    "Application.List.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
+    "Application.MinElementChallenge.executor": "Run",
+    "Application.MultiDimensionalArrays.executor": "Run",
+    "Application.NestedArray_2.executor": "Run",
+    "Application.NestedArrays.executor": "Run",
+    "Application.NumbersExample.executor": "Run",
+    "Application.NumbersExample_Recursion.executor": "Run",
+    "Application.Overloading.executor": "Run",
+    "Application.Prime.executor": "Run",
+    "Application.PrimeNumber.executor": "Run",
+    "Application.Printing_number.executor": "Run",
+    "Application.Recursion.Basics_01.executor": "Run",
+    "Application.ReturnType.executor": "Run",
+    "Application.Reverse.executor": "Run",
+    "Application.ReverseArrayList.executor": "Run",
+    "Application.Reverse_2.executor": "Run",
+    "Application.Shadowing.executor": "Run",
+    "Application.Sort.executor": "Run",
+    "Application.Sum.executor": "Run",
+    "Application.Swap.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Varargs.executor": "Run",
+    "Application.basics.executor": "Run",
+    "Application.checking_case.executor": "Run",
+    "Application.multiAl.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Hp/IdeaProjects/DSA_FINAL",
+    "onboarding.tips.debug.path": "C:/Users/Hp/IdeaProjects/DSA_FINAL/src/Main.java"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.Basics_01">
-    <configuration name="ArraListChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.ArraListChallenge" />
-      <module name="DSA_FINAL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndArraylist.Udemy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.LinkedListChallenge">
     <configuration name="Basics_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList_Stacks_Queues.Basics_01" />
       <module name="DSA_FINAL" />
@@ -117,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Challenge1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.Challenge1" />
+    <configuration name="LinkedListChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList_Stacks_Queues.LinkedListChallenge" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysAndArraylist.Udemy.*" />
+          <option name="PATTERN" value="LinkedList_Stacks_Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.List" />
+    <configuration name="NumbersExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.NumbersExample" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysAndArraylist.Udemy.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +138,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndArraylist.Udemy.Test" />
+    <configuration name="NumbersExample_Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.NumbersExample_Recursion" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysAndArraylist.Udemy.*" />
+          <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recursion.Basics_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Basics_01" />
+      <module name="DSA_FINAL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListChallenge" />
         <item itemvalue="Application.Basics_01" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ArraListChallenge" />
-        <item itemvalue="Application.List" />
-        <item itemvalue="Application.Challenge1" />
+        <item itemvalue="Application.NumbersExample_Recursion" />
+        <item itemvalue="Application.Recursion.Basics_01" />
+        <item itemvalue="Application.NumbersExample" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707167347322</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1707171732368</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707171732368</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

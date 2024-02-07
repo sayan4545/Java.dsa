@@ -1,6 +1,7 @@
 package LinkedList_Stacks_Queues;
 
 import java.util.LinkedList;
+import java.util.ListIterator;
 
 public class Basics_01 {
     public static void main(String[] args) {
@@ -17,7 +18,8 @@ public class Basics_01 {
         places2visit.push("Ohio");
         System.out.println(places2visit);
         //getElement(places2visit);
-        printItinery(places2visit);
+        //printItinery3(places2visit);
+        testIterator2(places2visit);
     }
     public static void addmoreelements(LinkedList<String> places2visit){//Deque methods
         places2visit.addFirst("Chittaranjan");
@@ -66,5 +68,46 @@ public class Basics_01 {
     public static void printItinery(LinkedList<String> list){
         System.out.println(STR."Trip starts at --> \{list.peek()}");
         System.out.println(STR."Trip ends at --> \{list.peekLast()}");
+        for(int i= 1 ;i< list.size()-1;i++){
+            System.out.println(STR."From --> \{list.get(i-1)} to -->\{list.get(i)}");
+        }
+    }
+    public static void printItinery2(LinkedList<String> list){
+        String previousPlace = list.getFirst();
+        for(String town : list){
+            System.out.println("From -->" + previousPlace + " to -->"+ town);
+            previousPlace= town;
+        }
+    }
+    public static void printItinery3(LinkedList<String> list){
+        ListIterator<String> iterator = list.listIterator(1);
+        String previousPlace = list.getFirst();
+        while(iterator.hasNext()){
+            String town = iterator.next();
+            System.out.println(STR."From \{previousPlace } to \{ town}");
+            previousPlace = town;
+        }
+    }
+    public static void testIterator(LinkedList<String> list){
+        var iterator = list.iterator();
+        while(iterator.hasNext()){
+            if(iterator.next().equals("Rupnarayanpur")){
+                iterator.remove();
+            }
+           // System.out.println(iterator.next());
+        }
+        System.out.println(list);
+    }
+    public static void testIterator2(LinkedList<String> list){
+        ListIterator<String> iterator = list.listIterator();
+        while(iterator.hasNext()){
+            if(iterator.next().equals("Rupnarayanpur")){
+                iterator.add("Asansol");
+            }
+        }
+        while(iterator.hasPrevious()){
+            System.out.println(iterator.previous());
+        }
+        System.out.println(list);
     }
 }
