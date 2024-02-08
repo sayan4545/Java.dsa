@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList_Stacks_Queues/LinkedListChallenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Basics_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/NumbersExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/NumbersExample_Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/Overview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList_Stacks_Queues/Autoboxing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList_Stacks_Queues/Basics_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList_Stacks_Queues/Basics_01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -48,6 +48,7 @@
     "Application.Arrays_01.executor": "Run",
     "Application.Arrays_02.executor": "Run",
     "Application.Arrayspassinginfunction.executor": "Run",
+    "Application.Autoboxing.executor": "Run",
     "Application.Basics_01.executor": "Run",
     "Application.BinarySearch.executor": "Run",
     "Application.Calculator.executor": "Run",
@@ -66,6 +67,7 @@
     "Application.NumbersExample.executor": "Run",
     "Application.NumbersExample_Recursion.executor": "Run",
     "Application.Overloading.executor": "Run",
+    "Application.Overview.executor": "Run",
     "Application.Prime.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
     "Application.Printing_number.executor": "Run",
@@ -98,7 +100,20 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LinkedListChallenge">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Autoboxing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList_Stacks_Queues.Autoboxing" />
+      <module name="DSA_FINAL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList_Stacks_Queues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Basics_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList_Stacks_Queues.Basics_01" />
       <module name="DSA_FINAL" />
@@ -125,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumbersExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.NumbersExample" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.Main" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,25 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumbersExample_Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.NumbersExample_Recursion" />
+    <configuration name="Overview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.Overview" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Recursion.Basics_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Basics_01" />
-      <module name="DSA_FINAL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Overview" />
+        <item itemvalue="Application.Autoboxing" />
         <item itemvalue="Application.LinkedListChallenge" />
         <item itemvalue="Application.Basics_01" />
-        <item itemvalue="Application.NumbersExample_Recursion" />
-        <item itemvalue="Application.Recursion.Basics_01" />
-        <item itemvalue="Application.NumbersExample" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707171732368</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1707345500114</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707345500114</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
