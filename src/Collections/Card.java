@@ -8,7 +8,7 @@ public record Card(Suit suit , String face, int rank) {
         CLUB,DIAMOND,HEART,SPADE;
 
         public char getImage(){
-            return (new char[]{9827,9830,9829,9834})[this.ordinal()];
+            return (new char[]{9827,9830,9829,9824})[this.ordinal()];
         }
     }
 
@@ -51,6 +51,9 @@ public record Card(Suit suit , String face, int rank) {
         return deck;
 
     }
+    public static void printDeck(List<Card> deck){
+        printDeck(deck,"Current Deck",4);
+    }
     public static void printDeck(List<Card> deck,String description,int rows){
         System.out.println("--------------------------------------------");
         if(description!=null){
@@ -60,12 +63,10 @@ public record Card(Suit suit , String face, int rank) {
         for(int i=0;i<rows;i++){
             int startindex = i*cardsinrow;
             int endindex = startindex+cardsinrow;
-            deck.subList(startindex,endindex).forEach(c -> System.out.print(c+ " "));
+            deck.subList(startindex,endindex).forEach(c -> System.out.print(c + " "));
             System.out.println();//line break
 
         }
     }
-    public static void printDeck(List<Card> deck){
-        printDeck(deck,"Current Deck",4);
-    }
+
 }
