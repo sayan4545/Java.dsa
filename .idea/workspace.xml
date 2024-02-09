@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
+      <change afterPath="$PROJECT_DIR$/src/Collections/DayOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/EnumImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/Toppings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Collections/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -35,68 +41,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Armstrong.executor": "Run",
-    "Application.ArraListChallenge.executor": "Run",
-    "Application.ArrayListMulti.executor": "Run",
-    "Application.ArrayList_Examples.executor": "Run",
-    "Application.Arrays_01.executor": "Run",
-    "Application.Arrays_02.executor": "Run",
-    "Application.Arrayspassinginfunction.executor": "Run",
-    "Application.Autoboxing.executor": "Run",
-    "Application.Basics_01.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.Calculator.executor": "Run",
-    "Application.Challenge1.executor": "Run",
-    "Application.Check_occurance.executor": "Run",
-    "Application.Fibonacci_series.executor": "Run",
-    "Application.LinearSearch.executor": "Run",
-    "Application.LinkedListChallenge.executor": "Run",
-    "Application.List.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Main2.executor": "Run",
-    "Application.MinElementChallenge.executor": "Run",
-    "Application.MultiDimensionalArrays.executor": "Run",
-    "Application.NestedArray_2.executor": "Run",
-    "Application.NestedArrays.executor": "Run",
-    "Application.NumbersExample.executor": "Run",
-    "Application.NumbersExample_Recursion.executor": "Run",
-    "Application.Overloading.executor": "Run",
-    "Application.Overview.executor": "Run",
-    "Application.Prime.executor": "Run",
-    "Application.PrimeNumber.executor": "Run",
-    "Application.Printing_number.executor": "Run",
-    "Application.Recursion.Basics_01.executor": "Run",
-    "Application.ReturnType.executor": "Run",
-    "Application.Reverse.executor": "Run",
-    "Application.ReverseArrayList.executor": "Run",
-    "Application.Reverse_2.executor": "Run",
-    "Application.Shadowing.executor": "Run",
-    "Application.Sort.executor": "Run",
-    "Application.Sum.executor": "Run",
-    "Application.Swap.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.Varargs.executor": "Run",
-    "Application.basics.executor": "Run",
-    "Application.checking_case.executor": "Run",
-    "Application.multiAl.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Hp/IdeaProjects/DSA_FINAL",
-    "onboarding.tips.debug.path": "C:/Users/Hp/IdeaProjects/DSA_FINAL/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Armstrong.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraListChallenge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListMulti.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayList_Examples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Arrays_01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Arrays_02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Arrayspassinginfunction.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Autoboxing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Basics_01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Challenge1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Check_occurance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumImpl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacci_series.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListChallenge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.List.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinElementChallenge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiDimensionalArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NestedArray_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NestedArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumbersExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumbersExample_Recursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Overloading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Overview.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Printing_number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion.Basics_01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReturnType.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverse_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Shadowing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Swap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Varargs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.basics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.checking_case.executor&quot;: &quot;Run&quot;,
+    &quot;Application.multiAl.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hp/IdeaProjects/DSA_FINAL&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Hp/IdeaProjects/DSA_FINAL/src/Main.java&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Main">
+}</component>
+  <component name="RunManager" selected="Application.EnumImpl">
     <configuration name="Autoboxing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList_Stacks_Queues.Autoboxing" />
       <module name="DSA_FINAL" />
@@ -110,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Basics_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList_Stacks_Queues.Basics_01" />
+    <configuration name="EnumImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.EnumImpl" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList_Stacks_Queues.*" />
+          <option name="PATTERN" value="Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnumImpl" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Overview" />
         <item itemvalue="Application.Autoboxing" />
         <item itemvalue="Application.LinkedListChallenge" />
-        <item itemvalue="Application.Basics_01" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707428827846</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1707429235081</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1707429235081</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
