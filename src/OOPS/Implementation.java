@@ -23,8 +23,27 @@ public class Implementation {
 //        s1.marks = 67;
 //        System.out.println(STR."The students name is  \{s1.name} he scored \{s1.marks}");
 
-        Student s1 = new Student("Sayan Chatterjee",34,99.6f);
-        System.out.println(STR."\{s1.name} \{s1.roll_no} \{s1.marks}");
+//        Student s1 = new Student();
+//        System.out.println(STR."\{s1.name} \{s1.roll_no} \{s1.marks}");
+//        s1.greeting();
+//        Student s2 = new Student();
+//        System.out.println(s2.name+" "+s2.marks+" "+s2.roll_no);
+//        s2.greeting();
+        Student Sayan = new Student("Sayan Chatterjee",34,89.5f);
+        System.out.println(Sayan.name+" "+Sayan.marks+" "+Sayan.roll_no);
+        Sayan.greeting();
+
+        Student Chandrika = new Student(Sayan);
+        System.out.println(Chandrika.name+" "+Chandrika.marks+" "+Chandrika.roll_no);
+        System.out.println(Chandrika.name.equals(Sayan.name));
+
+        Student s3 = new Student();
+        System.out.println(s3.name+" "+s3.roll_no+" "+s3.marks);
+
+        final Student s4 = new Student("Anuska",10,99);
+        s4.name="Shiuli Chatterjee";
+        //s4 = new Student("Anish",45,98.98f);
+
 
     }
 }
