@@ -29,20 +29,34 @@ public class Implementation {
 //        Student s2 = new Student();
 //        System.out.println(s2.name+" "+s2.marks+" "+s2.roll_no);
 //        s2.greeting();
-        Student Sayan = new Student("Sayan Chatterjee",34,89.5f);
-        System.out.println(Sayan.name+" "+Sayan.marks+" "+Sayan.roll_no);
-        Sayan.greeting();
+//        Student Sayan = new Student("Sayan Chatterjee",34,89.5f);
+//        System.out.println(Sayan.name+" "+Sayan.marks+" "+Sayan.roll_no);
+//        Sayan.greeting();
+//
+//        Student Chandrika = new Student(Sayan);
+//        System.out.println(Chandrika.name+" "+Chandrika.marks+" "+Chandrika.roll_no);
+//        System.out.println(Chandrika.name.equals(Sayan.name));
+//
+//        Student s3 = new Student();
+//        System.out.println(s3.name+" "+s3.roll_no+" "+s3.marks);
+//
+//        final Student s4 = new Student("Anuska",10,99);
+//        s4.name="Shiuli Chatterjee";
+//        //s4 = new Student("Anish",45,98.98f);
+        Human Chandrika = new Human(26,"Chandrika Dey",67000,false);
+        System.out.println(Chandrika.age+" "+Chandrika.name);
+        System.out.println(Human.population);
 
-        Student Chandrika = new Student(Sayan);
-        System.out.println(Chandrika.name+" "+Chandrika.marks+" "+Chandrika.roll_no);
-        System.out.println(Chandrika.name.equals(Sayan.name));
+        Human Sayan = new Human(30,"Sayan Chatterjee",45000,false);
+        System.out.println(Human.population);
 
-        Student s3 = new Student();
-        System.out.println(s3.name+" "+s3.roll_no+" "+s3.marks);
 
-        final Student s4 = new Student("Anuska",10,99);
-        s4.name="Shiuli Chatterjee";
-        //s4 = new Student("Anish",45,98.98f);
+        System.out.println(Human.population);//Whenever a member is declared static, it can be accesed before an instance of the
+        //class is actually created.
+
+        Human Anuska = new Human(22,"Anuska Chatterjee",67890,false);
+        System.out.println(Anuska.age+" "+Anuska.name+" "+Anuska.salary+" "+Anuska.married);
+        System.out.println(Human.population);
 
 
     }

@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/OOPS/WrapperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OOPS/Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/Implementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
     "Application.Check_occurance.executor": "Run",
     "Application.EnumImpl.executor": "Run",
     "Application.Fibonacci_series.executor": "Run",
-    "Application.Implementation.executor": "Debug",
+    "Application.Implementation.executor": "Run",
     "Application.LinearSearch.executor": "Run",
     "Application.LinkedListChallenge.executor": "Run",
     "Application.List.executor": "Run",
@@ -103,7 +102,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WrapperClass">
+  <component name="RunManager" selected="Application.Implementation">
     <configuration name="EnumImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collections.EnumImpl" />
       <module name="DSA_FINAL" />
@@ -171,8 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WrapperClass" />
         <item itemvalue="Application.Implementation" />
+        <item itemvalue="Application.WrapperClass" />
         <item itemvalue="Application.EnumImpl" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Overview" />
@@ -339,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707589580195</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1707682944751</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1707682944751</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
