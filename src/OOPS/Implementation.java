@@ -4,6 +4,13 @@ import java.util.Arrays;
 
 public class Implementation {
     public static void main(String[] args) {
+        Singleton obj1 = Singleton.getInstance();
+        Singleton obj2 = Singleton.getInstance();
+        Singleton obj3 = Singleton.getInstance();
+        System.out.println(obj1);
+        System.out.println(obj2);
+        System.out.println(obj3);
+
 //        Student s1 = new Student();
 //        s1.name = "Sayan";
 //        s1.roll_no=78;
@@ -43,21 +50,40 @@ public class Implementation {
 //        final Student s4 = new Student("Anuska",10,99);
 //        s4.name="Shiuli Chatterjee";
 //        //s4 = new Student("Anish",45,98.98f);
-        Human Chandrika = new Human(26,"Chandrika Dey",67000,false);
-        System.out.println(Chandrika.age+" "+Chandrika.name);
-        System.out.println(Human.population);
+//        Human Chandrika = new Human(26,"Chandrika Dey",67000,false);
+//        System.out.println(STR."\{Chandrika.age} \{Chandrika.name}");
+//        System.out.println(Human.population);
+//
+//        Human Sayan = new Human(30,"Sayan Chatterjee",45000,false);
+//        System.out.println(Human.population);
+//
+//
+//        System.out.println(Human.population);//Whenever a member is declared static, it can be accesed before an instance of the
+//        //class is actually created.
+//
+//        Human Anuska = new Human(22,"Anuska Chatterjee",67890,false);
+//        System.out.println(STR."\{Anuska.age} \{Anuska.name} \{Anuska.salary} \{Anuska.married}");
+//        System.out.println(Human.population);
 
-        Human Sayan = new Human(30,"Sayan Chatterjee",45000,false);
-        System.out.println(Human.population);
-
-
-        System.out.println(Human.population);//Whenever a member is declared static, it can be accesed before an instance of the
-        //class is actually created.
-
-        Human Anuska = new Human(22,"Anuska Chatterjee",67890,false);
-        System.out.println(Anuska.age+" "+Anuska.name+" "+Anuska.salary+" "+Anuska.married);
-        System.out.println(Human.population);
+        //greeting();--> This will throw an error. Since nonstatic member cant be accessed
+        //from a static context.
+//        Implementation i = new Implementation();
+//        i.greeting();//--> This will run. Since nonstatic member needs an instance of the class to run.
 
 
     }
+
+//    void greeting(){
+//        System.out.println("Hey!");
+//        fun();
+//        fun2();
+//    }
+//    void fun2(){
+//        System.out.println("Having fun 2!");
+//    }
+//    static void fun(){
+//        System.out.println("Having fun!");
+//    }
+
+
 }

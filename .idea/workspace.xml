@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/InnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/StaticBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OOPS/Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/Implementation.java" afterDir="false" />
     </list>
@@ -56,6 +58,7 @@
     "Application.EnumImpl.executor": "Run",
     "Application.Fibonacci_series.executor": "Run",
     "Application.Implementation.executor": "Run",
+    "Application.InnerClass.executor": "Run",
     "Application.LinearSearch.executor": "Run",
     "Application.LinkedListChallenge.executor": "Run",
     "Application.List.executor": "Run",
@@ -79,6 +82,7 @@
     "Application.Reverse_2.executor": "Run",
     "Application.Shadowing.executor": "Run",
     "Application.Sort.executor": "Run",
+    "Application.StaticBlock.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.Swap.executor": "Run",
     "Application.Test.executor": "Run",
@@ -129,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.Main" />
+    <configuration name="InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.InnerClass" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.*" />
+          <option name="PATTERN" value="OOPS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Overview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.Overview" />
+    <configuration name="StaticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.StaticBlock" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.*" />
+          <option name="PATTERN" value="OOPS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,10 +175,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Implementation" />
+        <item itemvalue="Application.InnerClass" />
+        <item itemvalue="Application.StaticBlock" />
         <item itemvalue="Application.WrapperClass" />
         <item itemvalue="Application.EnumImpl" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Overview" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +350,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707682944751</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1707775162441</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1707775162441</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
