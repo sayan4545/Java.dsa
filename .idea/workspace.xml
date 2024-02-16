@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/OOPS/InnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/StaticBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Inheritence/BabyBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Inheritence/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Inheritence/Implementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/Implementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
         <option value="Record" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -70,6 +70,7 @@
     "Application.NestedArrays.executor": "Run",
     "Application.NumbersExample.executor": "Run",
     "Application.NumbersExample_Recursion.executor": "Run",
+    "Application.OOPS.Inheritence.Implementation.executor": "Debug",
     "Application.Overloading.executor": "Run",
     "Application.Overview.executor": "Run",
     "Application.Prime.executor": "Run",
@@ -106,20 +107,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Implementation">
-    <configuration name="EnumImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.EnumImpl" />
-      <module name="DSA_FINAL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OOPS.Inheritence.Implementation">
     <configuration name="Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOPS.Implementation" />
       <module name="DSA_FINAL" />
@@ -139,6 +127,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OOPS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OOPS.Inheritence.Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.Inheritence.Implementation" />
+      <module name="DSA_FINAL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPS.Inheritence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOPS.Inheritence.Implementation" />
         <item itemvalue="Application.Implementation" />
         <item itemvalue="Application.InnerClass" />
         <item itemvalue="Application.StaticBlock" />
         <item itemvalue="Application.WrapperClass" />
-        <item itemvalue="Application.EnumImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707775162441</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1707949493343</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1707949493343</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,6 +410,11 @@
           <url>file://$PROJECT_DIR$/src/Printing_number.java</url>
           <line>36</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/OOPS/Inheritence/Implementation.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
