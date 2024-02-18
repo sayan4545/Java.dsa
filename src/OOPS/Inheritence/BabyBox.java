@@ -9,4 +9,12 @@ public class BabyBox  extends Box{
         super(l,w,h);
         this.b=b;
     }
+    BabyBox(BabyBox other){
+        super(other);
+        this.b=other.b;
+    }
+
+    public BabyBox(double side) {
+        super(side);
+    }
 }
