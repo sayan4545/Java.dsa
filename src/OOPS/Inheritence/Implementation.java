@@ -1,7 +1,9 @@
 package OOPS.Inheritence;
 
-public class Implementation {
+import OOPS.AccessModifiers.A;
+import OOPS.AccessModifiers.B;
 
+public class Implementation {
     public static void main(String[] args) {
 //        Box box_1 = new Box();
 //        System.out.println(box_1.l+" "+ box_1.h+" "+ box_1.w);
@@ -14,14 +16,13 @@ public class Implementation {
 //        Box box_7 = new BabyBox(1,2,3,4);//The reference type determines what variables can be accesed, not the type of the object.
 //
 //        System.out.println(box_7.l);
-        BabyBox x = new BabyBox(box_4);
-        System.out.println(x.b+" "+x.w+" "+x.h+" "+x.l);
+//        BabyBox x = new BabyBox(box_4);
+//        System.out.println(STR."\{x.b} \{x.w} \{x.h} \{x.l}");
+//        BoxPrice b = new BoxPrice(2,34);
+//        System.out.println(STR."\{b.cost} \{b.l} \{b.w}");
 
-        BoxPrice b = new BoxPrice(2,34);
-        System.out.println(b.cost+" "+b.l+" "+b.w);
-        
-
-
+       // a.num =90;
+        B b = new B();
 
 
 
