@@ -5,28 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/OOPS/AccessModifiers/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/AccessModifiers/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/AccessModifiers/Implementations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Interfaces/Brake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Interfaces/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Interfaces/CustomCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Interfaces/ElectricEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Interfaces/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Interfaces/Implementations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Interfaces/Media.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Interfaces/MediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Interfaces/PowerEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/abstraction/Implementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/abstraction/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/abstraction/Son.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/polymorphism/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/polymorphism/Implementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/polymorphism/Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/polymorphism/Shapes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/polymorphism/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Generics/CustomArrauList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Generics/Implementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/Inheritence/Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/Inheritence/Implementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +55,7 @@
     "Application.Calculator.executor": "Run",
     "Application.Challenge1.executor": "Run",
     "Application.Check_occurance.executor": "Run",
+    "Application.CustomArrauList.executor": "Run",
     "Application.EnumImpl.executor": "Run",
     "Application.Fibonacci_series.executor": "Run",
     "Application.Implementation.executor": "Run",
@@ -130,7 +112,33 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Implementations">
+  <component name="RunManager" selected="Application.Implementation">
+    <configuration name="CustomArrauList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.Generics.CustomArrauList" />
+      <module name="DSA_FINAL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPS.Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.Generics.Implementation" />
+      <module name="DSA_FINAL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPS.Generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Implementations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOPS.Interfaces.Implementations" />
       <module name="DSA_FINAL" />
@@ -157,19 +165,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPS.Inheritence.Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.Inheritence.Implementation" />
-      <module name="DSA_FINAL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOPS.Inheritence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OOPS.abstraction.Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOPS.abstraction.Implementation" />
       <module name="DSA_FINAL" />
@@ -183,26 +178,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPS.polymorphism.Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.polymorphism.Implementation" />
-      <module name="DSA_FINAL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOPS.polymorphism.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Implementation" />
+        <item itemvalue="Application.CustomArrauList" />
         <item itemvalue="Application.Implementations" />
         <item itemvalue="Application.OOPS.abstraction.Implementation" />
         <item itemvalue="Application.Numbers" />
-        <item itemvalue="Application.OOPS.polymorphism.Implementation" />
-        <item itemvalue="Application.OOPS.Inheritence.Implementation" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708295302645</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1708728115168</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1708728115168</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
