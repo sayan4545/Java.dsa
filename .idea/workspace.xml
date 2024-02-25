@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Generics/CustomArrauList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Generics/Implementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Comparators/Implementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Comparators/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Generics/CustomGenericArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Onlinetests/Ques1/Implementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/Generics/Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/Generics/Implementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +76,11 @@
     "Application.Numbers.executor": "Debug",
     "Application.NumbersExample.executor": "Run",
     "Application.NumbersExample_Recursion.executor": "Run",
+    "Application.OOPS.Comparators.Implementation.executor": "Run",
     "Application.OOPS.Inheritence.Implementation.executor": "Debug",
     "Application.OOPS.abstraction.Implementation.executor": "Debug",
     "Application.OOPS.polymorphism.Implementation.executor": "Run",
+    "Application.Onlinetests.Ques1.Implementation.executor": "Run",
     "Application.Overloading.executor": "Run",
     "Application.Overview.executor": "Run",
     "Application.Prime.executor": "Run",
@@ -112,7 +117,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Implementation">
+  <component name="RunManager" selected="Application.OOPS.Comparators.Implementation">
     <configuration name="CustomArrauList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOPS.Generics.CustomArrauList" />
       <module name="DSA_FINAL" />
@@ -152,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.polymorphism.Numbers" />
+    <configuration name="OOPS.Comparators.Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.Comparators.Implementation" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.polymorphism.*" />
+          <option name="PATTERN" value="OOPS.Comparators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPS.abstraction.Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.abstraction.Implementation" />
+    <configuration name="Onlinetests.Ques1.Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Onlinetests.Ques1.Implementation" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.abstraction.*" />
+          <option name="PATTERN" value="Onlinetests.Ques1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOPS.Comparators.Implementation" />
+        <item itemvalue="Application.Onlinetests.Ques1.Implementation" />
         <item itemvalue="Application.Implementation" />
         <item itemvalue="Application.CustomArrauList" />
         <item itemvalue="Application.Implementations" />
-        <item itemvalue="Application.OOPS.abstraction.Implementation" />
-        <item itemvalue="Application.Numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708728115168</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1708786755148</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1708786755148</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
