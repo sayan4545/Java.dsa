@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/HotelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/HotelType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/Implementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/LambdasImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +19,8 @@
         <option value="Record" />
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,6 +60,7 @@
     "Application.Implementation.executor": "Run",
     "Application.Implementations.executor": "Run",
     "Application.InnerClass.executor": "Run",
+    "Application.LambdasImpl.executor": "Run",
     "Application.LinearSearch.executor": "Run",
     "Application.LinkedListChallenge.executor": "Run",
     "Application.List.executor": "Run",
@@ -123,9 +120,9 @@
       <recent name="OOPS.Lambdas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OOPS.Lambdas.Implementation">
-    <configuration name="CustomArrauList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.Generics.CustomArrauList" />
+  <component name="RunManager" selected="Application.LambdasImpl">
+    <configuration name="Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.Generics.Implementation" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
@@ -137,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.Generics.Implementation" />
+    <configuration name="LambdasImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.Lambdas.LambdasImpl" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.Generics.*" />
+          <option name="PATTERN" value="OOPS.Lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdasImpl" />
         <item itemvalue="Application.OOPS.Lambdas.Implementation" />
         <item itemvalue="Application.OOPS.Comparators.Implementation" />
         <item itemvalue="Application.Onlinetests.Ques1.Implementation" />
         <item itemvalue="Application.Implementation" />
-        <item itemvalue="Application.CustomArrauList" />
       </list>
     </recent_temporary>
   </component>
@@ -423,7 +420,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708894707668</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1708961033301</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1708961033302</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
