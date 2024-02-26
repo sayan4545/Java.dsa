@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Comparators/Implementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Comparators/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Generics/CustomGenericArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Onlinetests/Ques1/Implementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/HotelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/HotelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/Implementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/Generics/Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/Generics/Implementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +21,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Enum" />
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -78,6 +78,7 @@
     "Application.NumbersExample_Recursion.executor": "Run",
     "Application.OOPS.Comparators.Implementation.executor": "Run",
     "Application.OOPS.Inheritence.Implementation.executor": "Debug",
+    "Application.OOPS.Lambdas.Implementation.executor": "Run",
     "Application.OOPS.abstraction.Implementation.executor": "Debug",
     "Application.OOPS.polymorphism.Implementation.executor": "Run",
     "Application.Onlinetests.Ques1.Implementation.executor": "Run",
@@ -117,7 +118,12 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OOPS.Comparators.Implementation">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="OOPS.Lambdas" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.OOPS.Lambdas.Implementation">
     <configuration name="CustomArrauList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOPS.Generics.CustomArrauList" />
       <module name="DSA_FINAL" />
@@ -144,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Implementations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.Interfaces.Implementations" />
+    <configuration name="OOPS.Comparators.Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.Comparators.Implementation" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.Interfaces.*" />
+          <option name="PATTERN" value="OOPS.Comparators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPS.Comparators.Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.Comparators.Implementation" />
+    <configuration name="OOPS.Lambdas.Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.Lambdas.Implementation" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.Comparators.*" />
+          <option name="PATTERN" value="OOPS.Lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOPS.Lambdas.Implementation" />
         <item itemvalue="Application.OOPS.Comparators.Implementation" />
         <item itemvalue="Application.Onlinetests.Ques1.Implementation" />
         <item itemvalue="Application.Implementation" />
         <item itemvalue="Application.CustomArrauList" />
-        <item itemvalue="Application.Implementations" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +415,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708786755148</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1708894707668</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1708894707668</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
