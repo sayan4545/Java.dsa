@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/LambdasImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/Challenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/Methodreference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/Operations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPS/Lambdas/LambdasImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/LambdasImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,14 +21,17 @@
       <list>
         <option value="Record" />
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/OOPS/Lambdas/LambdasImpl.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,6 +58,7 @@
     "Application.Basics_01.executor": "Run",
     "Application.BinarySearch.executor": "Run",
     "Application.Calculator.executor": "Run",
+    "Application.Challenge.executor": "Run",
     "Application.Challenge1.executor": "Run",
     "Application.Check_occurance.executor": "Run",
     "Application.CustomArrauList.executor": "Run",
@@ -120,13 +127,13 @@
       <recent name="OOPS.Lambdas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdasImpl">
-    <configuration name="Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.Generics.Implementation" />
+  <component name="RunManager" selected="Application.Methodreference">
+    <configuration name="Challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.Lambdas.Challenge" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.Generics.*" />
+          <option name="PATTERN" value="OOPS.Lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,6 +143,19 @@
     </configuration>
     <configuration name="LambdasImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOPS.Lambdas.LambdasImpl" />
+      <module name="DSA_FINAL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPS.Lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Methodreference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPS.Lambdas.Methodreference" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
@@ -173,26 +193,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Onlinetests.Ques1.Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Onlinetests.Ques1.Implementation" />
-      <module name="DSA_FINAL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Onlinetests.Ques1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Methodreference" />
+        <item itemvalue="Application.Challenge" />
         <item itemvalue="Application.LambdasImpl" />
         <item itemvalue="Application.OOPS.Lambdas.Implementation" />
         <item itemvalue="Application.OOPS.Comparators.Implementation" />
-        <item itemvalue="Application.Onlinetests.Ques1.Implementation" />
-        <item itemvalue="Application.Implementation" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +435,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708961033302</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1708982357303</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1708982357303</updated>
+    </task>
+    <task id="LOCAL-00029" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1708982473634</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1708982473634</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
