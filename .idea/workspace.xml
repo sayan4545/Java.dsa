@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/Challenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/Methodreference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/Operations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/ArrayListClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/Implementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/OurGenericList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/QueueImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPS/Lambdas/LambdasImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPS/Lambdas/LambdasImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -49,6 +53,7 @@
   "keyToString": {
     "Application.Armstrong.executor": "Run",
     "Application.ArraListChallenge.executor": "Run",
+    "Application.ArrayListClass.executor": "Run",
     "Application.ArrayListMulti.executor": "Run",
     "Application.ArrayList_Examples.executor": "Run",
     "Application.Arrays_01.executor": "Run",
@@ -73,6 +78,7 @@
     "Application.List.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
+    "Application.Methodreference.executor": "Run",
     "Application.MinElementChallenge.executor": "Run",
     "Application.MultiDimensionalArrays.executor": "Run",
     "Application.NestedArray_2.executor": "Run",
@@ -91,6 +97,7 @@
     "Application.Prime.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
     "Application.Printing_number.executor": "Run",
+    "Application.QueueImpl.executor": "Run",
     "Application.Recursion.Basics_01.executor": "Run",
     "Application.ReturnType.executor": "Run",
     "Application.Reverse.executor": "Run",
@@ -122,12 +129,37 @@
     ]
   }
 }]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\Hp\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="fc572281-5aad-4b44-ac1e-5ec862a32752" />
+        <option name="reportName" value="DSA_FINAL/qodana/2024-02-29" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="OOPS.Lambdas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Methodreference">
+  <component name="RunManager" selected="Application.QueueImpl">
+    <configuration name="ArrayListClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionFramework.Iterator.ArrayListClass" />
+      <module name="DSA_FINAL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CollectionFramework.Iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOPS.Lambdas.Challenge" />
       <module name="DSA_FINAL" />
@@ -141,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdasImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.Lambdas.LambdasImpl" />
+    <configuration name="Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionFramework.Iterator.Implementation" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.Lambdas.*" />
+          <option name="PATTERN" value="CollectionFramework.Iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,25 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOPS.Comparators.Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.Comparators.Implementation" />
+    <configuration name="QueueImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionFramework.Iterator.QueueImpl" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.Comparators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OOPS.Lambdas.Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.Lambdas.Implementation" />
-      <module name="DSA_FINAL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOPS.Lambdas.*" />
+          <option name="PATTERN" value="CollectionFramework.Iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueImpl" />
+        <item itemvalue="Application.ArrayListClass" />
+        <item itemvalue="Application.Implementation" />
         <item itemvalue="Application.Methodreference" />
         <item itemvalue="Application.Challenge" />
-        <item itemvalue="Application.LambdasImpl" />
-        <item itemvalue="Application.OOPS.Lambdas.Implementation" />
-        <item itemvalue="Application.OOPS.Comparators.Implementation" />
       </list>
     </recent_temporary>
   </component>
@@ -451,7 +470,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708982473634</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1709069187022</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1709069187022</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
