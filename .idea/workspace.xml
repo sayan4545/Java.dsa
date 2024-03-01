@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/ArrayListClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/Implementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/OurGenericList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/QueueImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/MyCustomComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/PQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/PriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_new/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_new/FibonacciNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_new/Hello_World.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_new/NumbersExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion_new/NumbersExample2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/QueueImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +73,9 @@
     "Application.Check_occurance.executor": "Run",
     "Application.CustomArrauList.executor": "Run",
     "Application.EnumImpl.executor": "Run",
+    "Application.FibonacciNumber.executor": "Run",
     "Application.Fibonacci_series.executor": "Run",
+    "Application.Hello_World.executor": "Run",
     "Application.Implementation.executor": "Run",
     "Application.Implementations.executor": "Run",
     "Application.InnerClass.executor": "Run",
@@ -84,7 +91,8 @@
     "Application.NestedArray_2.executor": "Run",
     "Application.NestedArrays.executor": "Run",
     "Application.Numbers.executor": "Debug",
-    "Application.NumbersExample.executor": "Run",
+    "Application.NumbersExample.executor": "Debug",
+    "Application.NumbersExample2.executor": "Run",
     "Application.NumbersExample_Recursion.executor": "Run",
     "Application.OOPS.Comparators.Implementation.executor": "Run",
     "Application.OOPS.Inheritence.Implementation.executor": "Debug",
@@ -94,6 +102,7 @@
     "Application.Onlinetests.Ques1.Implementation.executor": "Run",
     "Application.Overloading.executor": "Run",
     "Application.Overview.executor": "Run",
+    "Application.PQ.executor": "Run",
     "Application.Prime.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
     "Application.Printing_number.executor": "Run",
@@ -120,7 +129,8 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Hp/IdeaProjects/DSA_FINAL",
-    "onboarding.tips.debug.path": "C:/Users/Hp/IdeaProjects/DSA_FINAL/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/Hp/IdeaProjects/DSA_FINAL/src/Main.java",
+    "settings.editor.selected.configurable": "settings.sync"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -146,13 +156,13 @@
       <recent name="OOPS.Lambdas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueImpl">
-    <configuration name="ArrayListClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFramework.Iterator.ArrayListClass" />
+  <component name="RunManager" selected="Application.PQ">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion_new.BinarySearch" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionFramework.Iterator.*" />
+          <option name="PATTERN" value="Recursion_new.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.Lambdas.Challenge" />
+    <configuration name="FibonacciNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion_new.FibonacciNumber" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.Lambdas.*" />
+          <option name="PATTERN" value="Recursion_new.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Implementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFramework.Iterator.Implementation" />
+    <configuration name="Hello_World" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion_new.Hello_World" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionFramework.Iterator.*" />
+          <option name="PATTERN" value="Recursion_new.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,12 +196,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Methodreference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPS.Lambdas.Methodreference" />
+    <configuration name="NumbersExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion_new.NumbersExample2" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOPS.Lambdas.*" />
+          <option name="PATTERN" value="Recursion_new.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,8 +209,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFramework.Iterator.QueueImpl" />
+    <configuration name="PQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionFramework.Iterator.PQ" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
@@ -214,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QueueImpl" />
-        <item itemvalue="Application.ArrayListClass" />
-        <item itemvalue="Application.Implementation" />
-        <item itemvalue="Application.Methodreference" />
-        <item itemvalue="Application.Challenge" />
+        <item itemvalue="Application.PQ" />
+        <item itemvalue="Application.NumbersExample2" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.Hello_World" />
+        <item itemvalue="Application.FibonacciNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +488,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709069187022</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1709245031682</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1709245031682</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -525,6 +543,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion_new/NumbersExample.java</url>
+          <line>5</line>
+          <properties class="Recursion_new.NumbersExample" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion_new/Hello_World.java</url>
+          <line>3</line>
+          <properties class="Recursion_new.Hello_World" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Printing_number.java</url>
