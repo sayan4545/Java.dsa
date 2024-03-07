@@ -5,17 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/MyCustomComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/PQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/PriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion_new/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion_new/FibonacciNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion_new/Hello_World.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion_new/NumbersExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion_new/NumbersExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/HashSetimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Maps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/SetImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/TreeSetimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Numbers2Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/PassingNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/PrintReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/SumOfDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/Iterator/QueueImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/ArrayListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/ArrayListClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/Implementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/MyCustomComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/MyCustomComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/OurGenericList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/OurGenericList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/PQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/PQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/PriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/QueueImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +81,10 @@
     "Application.Check_occurance.executor": "Run",
     "Application.CustomArrauList.executor": "Run",
     "Application.EnumImpl.executor": "Run",
+    "Application.Factorial.executor": "Run",
     "Application.FibonacciNumber.executor": "Run",
     "Application.Fibonacci_series.executor": "Run",
+    "Application.HashSetimpl.executor": "Run",
     "Application.Hello_World.executor": "Run",
     "Application.Implementation.executor": "Run",
     "Application.Implementations.executor": "Run",
@@ -85,12 +95,14 @@
     "Application.List.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
+    "Application.Maps.executor": "Run",
     "Application.Methodreference.executor": "Run",
     "Application.MinElementChallenge.executor": "Run",
     "Application.MultiDimensionalArrays.executor": "Run",
     "Application.NestedArray_2.executor": "Run",
     "Application.NestedArrays.executor": "Run",
     "Application.Numbers.executor": "Debug",
+    "Application.Numbers2Example.executor": "Run",
     "Application.NumbersExample.executor": "Debug",
     "Application.NumbersExample2.executor": "Run",
     "Application.NumbersExample_Recursion.executor": "Run",
@@ -103,8 +115,10 @@
     "Application.Overloading.executor": "Run",
     "Application.Overview.executor": "Run",
     "Application.PQ.executor": "Run",
+    "Application.PassingNumbers.executor": "Run",
     "Application.Prime.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
+    "Application.PrintReverse.executor": "Run",
     "Application.Printing_number.executor": "Run",
     "Application.QueueImpl.executor": "Run",
     "Application.Recursion.Basics_01.executor": "Run",
@@ -112,12 +126,15 @@
     "Application.Reverse.executor": "Run",
     "Application.ReverseArrayList.executor": "Run",
     "Application.Reverse_2.executor": "Run",
+    "Application.SetImpl.executor": "Run",
     "Application.Shadowing.executor": "Run",
     "Application.Sort.executor": "Run",
     "Application.StaticBlock.executor": "Run",
     "Application.Sum.executor": "Run",
+    "Application.SumOfDigits.executor": "Run",
     "Application.Swap.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.TreeSetimpl.executor": "Run",
     "Application.Varargs.executor": "Run",
     "Application.WrapperClass.executor": "Run",
     "Application.basics.executor": "Run",
@@ -139,30 +156,18 @@
     ]
   }
 }]]></component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="C:\Users\Hp\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
-        <option name="reportGuid" value="fc572281-5aad-4b44-ac1e-5ec862a32752" />
-        <option name="reportName" value="DSA_FINAL/qodana/2024-02-29" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="OOPS.Lambdas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PQ">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion_new.BinarySearch" />
+  <component name="RunManager" selected="Application.Maps">
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Factorial" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion_new.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion_new.FibonacciNumber" />
+    <configuration name="Maps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionFramework.Maps" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion_new.*" />
+          <option name="PATTERN" value="CollectionFramework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hello_World" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion_new.Hello_World" />
+    <configuration name="PassingNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.PassingNumbers" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion_new.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumbersExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion_new.NumbersExample2" />
+    <configuration name="PrintReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.PrintReverse" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion_new.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFramework.Iterator.PQ" />
+    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.SumOfDigits" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionFramework.Iterator.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PQ" />
-        <item itemvalue="Application.NumbersExample2" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.Hello_World" />
-        <item itemvalue="Application.FibonacciNumber" />
+        <item itemvalue="Application.Maps" />
+        <item itemvalue="Application.PrintReverse" />
+        <item itemvalue="Application.PassingNumbers" />
+        <item itemvalue="Application.SumOfDigits" />
+        <item itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>
@@ -496,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709245031682</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1709334281323</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1709334281323</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

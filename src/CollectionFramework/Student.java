@@ -1,4 +1,4 @@
-package CollectionFramework.Iterator;
+package CollectionFramework;
 
 public class Student implements Comparable<Student>{
     public int getMath_marks() {

@@ -1,4 +1,4 @@
-package CollectionFramework.Iterator;
+package CollectionFramework;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -47,7 +47,7 @@ public class PQ {
 //        System.out.println(top2);
 //        System.out.println(pq);
 
-        PriorityQueue<Integer> pq = new PriorityQueue<>(new MyCustomComparator()) ;
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->b-a) ;
 
 
         pq.offer(123);
