@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/HashSetimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/Maps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/SetImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFramework/TreeSetimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Numbers2Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/PassingNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/PrintReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/SumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Thread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Thread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/ThreadTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/ArrayListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/ArrayListClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/Implementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/Implementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/MyCustomComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/MyCustomComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/OurGenericList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/OurGenericList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/PQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/PQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/PriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/QueueImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFramework/Iterator/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFramework/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +120,7 @@
     "Application.SumOfDigits.executor": "Run",
     "Application.Swap.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.ThreadTester.executor": "Run",
     "Application.TreeSetimpl.executor": "Run",
     "Application.Varargs.executor": "Run",
     "Application.WrapperClass.executor": "Run",
@@ -161,20 +148,7 @@
       <recent name="OOPS.Lambdas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Maps">
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Factorial" />
-      <module name="DSA_FINAL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadTester">
     <configuration name="Maps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollectionFramework.Maps" />
       <module name="DSA_FINAL" />
@@ -227,13 +201,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.ThreadTester" />
+      <module name="DSA_FINAL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultiThreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadTester" />
         <item itemvalue="Application.Maps" />
         <item itemvalue="Application.PrintReverse" />
         <item itemvalue="Application.PassingNumbers" />
         <item itemvalue="Application.SumOfDigits" />
-        <item itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>
@@ -509,7 +496,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709334281323</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1709850866612</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1709850866612</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
