@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/CountZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Count_Zeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Reverse_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/SortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Steps_to_reduce_a_number_to_zero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/fact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/LinearSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultiThreading/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiThreading/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/PrintReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/PrintReverse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +153,7 @@
       <recent name="OOPS.Lambdas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortedArray">
+  <component name="RunManager" selected="Application.LinearSearch">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sorting.BubbleSort" />
       <module name="DSA_FINAL" />
@@ -177,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Count_Zeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Count_Zeroes" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.InsertionSort" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.InsertionSort" />
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.LinearSearch" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.SortedArray" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Steps_to_reduce_a_number_to_zero" />
-        <item itemvalue="Application.Count_Zeroes" />
       </list>
     </recent_temporary>
   </component>
@@ -527,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710023045388</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1710877078176</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1710877078176</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,6 +605,11 @@
           <url>file://$PROJECT_DIR$/src/Recursion/Count_Zeroes.java</url>
           <line>7</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/LinearSearch.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
