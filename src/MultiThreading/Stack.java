@@ -16,32 +16,31 @@ public class Stack <Integer>{
     public boolean isFull(){
         return StackTop>=array.length-1;
     }
-    public boolean push(int value){
-        synchronized(lock1){
-            if (isFull())
-                return false;
-
-            ++StackTop;
-            try{
-                Thread.sleep(1000);
-            }catch (Exception e){
-
-            }
-            array[StackTop]=value;
-            return true;
+    public synchronized boolean push(int value){
+        if(isFull()){
+            return false;
         }
+        ++StackTop;
+        try{
+            Thread.sleep(1000);
+        }catch(Exception e){
+
+        }
+        array[StackTop]=value;
+        return true;
+
     }
-    public int pop(){
-        synchronized (lock1){
-            if(isEmpty()){
-                return java.lang.Integer.MIN_VALUE;
-            }
-            int obj = array[StackTop];
-            array[StackTop]= java.lang.Integer.MIN_VALUE;
-            try{Thread.sleep(1000);}catch(Exception e){ };
-            StackTop--;
-            return obj;
+    public  synchronized int pop(){
+
+        if(isEmpty()){
+            return java.lang.Integer.MIN_VALUE;
         }
+        int obj = array[StackTop];
+        array[StackTop]= java.lang.Integer.MIN_VALUE;
+        try{Thread.sleep(1000);}catch(Exception e){ };
+        StackTop--;
+        return obj;
+
 
     }
 

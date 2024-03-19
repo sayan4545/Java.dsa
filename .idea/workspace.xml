@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Thread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Thread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/ThreadTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/CountZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Count_Zeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Reverse_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/SortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Steps_to_reduce_a_number_to_zero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/fact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultiThreading/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiThreading/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/PrintReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/PrintReverse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +68,13 @@
     "Application.Autoboxing.executor": "Run",
     "Application.Basics_01.executor": "Run",
     "Application.BinarySearch.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
     "Application.Calculator.executor": "Run",
     "Application.Challenge.executor": "Run",
     "Application.Challenge1.executor": "Run",
     "Application.Check_occurance.executor": "Run",
+    "Application.CountZeroes.executor": "Debug",
+    "Application.Count_Zeroes.executor": "Run",
     "Application.CustomArrauList.executor": "Run",
     "Application.EnumImpl.executor": "Run",
     "Application.Factorial.executor": "Run",
@@ -75,6 +85,7 @@
     "Application.Implementation.executor": "Run",
     "Application.Implementations.executor": "Run",
     "Application.InnerClass.executor": "Run",
+    "Application.InsertionSort.executor": "Run",
     "Application.LambdasImpl.executor": "Run",
     "Application.LinearSearch.executor": "Run",
     "Application.LinkedListChallenge.executor": "Run",
@@ -111,11 +122,14 @@
     "Application.ReturnType.executor": "Run",
     "Application.Reverse.executor": "Run",
     "Application.ReverseArrayList.executor": "Run",
+    "Application.Reverse_02.executor": "Run",
     "Application.Reverse_2.executor": "Run",
     "Application.SetImpl.executor": "Run",
     "Application.Shadowing.executor": "Run",
     "Application.Sort.executor": "Run",
+    "Application.SortedArray.executor": "Run",
     "Application.StaticBlock.executor": "Run",
+    "Application.Steps_to_reduce_a_number_to_zero.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
     "Application.Swap.executor": "Run",
@@ -126,6 +140,7 @@
     "Application.WrapperClass.executor": "Run",
     "Application.basics.executor": "Run",
     "Application.checking_case.executor": "Run",
+    "Application.fact.executor": "Run",
     "Application.multiAl.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -148,13 +163,13 @@
       <recent name="OOPS.Lambdas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadTester">
-    <configuration name="Maps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFramework.Maps" />
+  <component name="RunManager" selected="Application.SortedArray">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.BubbleSort" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionFramework.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,8 +177,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassingNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.PassingNumbers" />
+    <configuration name="Count_Zeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Count_Zeroes" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
@@ -175,8 +190,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.PrintReverse" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.InsertionSort" />
+      <module name="DSA_FINAL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.SortedArray" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
@@ -188,25 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.SumOfDigits" />
+    <configuration name="Steps_to_reduce_a_number_to_zero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Steps_to_reduce_a_number_to_zero" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreading.ThreadTester" />
-      <module name="DSA_FINAL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadTester" />
-        <item itemvalue="Application.Maps" />
-        <item itemvalue="Application.PrintReverse" />
-        <item itemvalue="Application.PassingNumbers" />
-        <item itemvalue="Application.SumOfDigits" />
+        <item itemvalue="Application.SortedArray" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.Steps_to_reduce_a_number_to_zero" />
+        <item itemvalue="Application.Count_Zeroes" />
       </list>
     </recent_temporary>
   </component>
@@ -504,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709850866612</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1710023045388</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1710023045388</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -574,6 +597,16 @@
           <url>file://$PROJECT_DIR$/src/Printing_number.java</url>
           <line>36</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/CountZeroes.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/Count_Zeroes.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
