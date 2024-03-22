@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/ReturnAnArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/SearchInaRotatedSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Pattern_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +103,7 @@
     "Application.Overview.executor": "Run",
     "Application.PQ.executor": "Run",
     "Application.PassingNumbers.executor": "Run",
+    "Application.Pattern_01.executor": "Run",
     "Application.Prime.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
     "Application.PrintReverse.executor": "Run",
@@ -156,13 +156,13 @@
       <recent name="OOPS.Lambdas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReturnAnArrayList">
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.InsertionSort" />
+  <component name="RunManager" selected="Application.Pattern_01">
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.LinearSearch" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,8 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.LinearSearch" />
+    <configuration name="Pattern_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Pattern_01" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
@@ -224,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pattern_01" />
         <item itemvalue="Application.ReturnAnArrayList" />
         <item itemvalue="Application.SearchInaRotatedSortedArray" />
         <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.SortedArray" />
-        <item itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -536,7 +536,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710886901051</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1711096810086</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1711096810087</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
