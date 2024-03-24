@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Pattern_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/LowerBound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/PivotElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/SearchInsertPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/isSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Count_Ones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +69,7 @@
     "Application.Challenge1.executor": "Run",
     "Application.Check_occurance.executor": "Run",
     "Application.CountZeroes.executor": "Debug",
+    "Application.Count_Ones.executor": "Run",
     "Application.Count_Zeroes.executor": "Run",
     "Application.CustomArrauList.executor": "Run",
     "Application.EnumImpl.executor": "Run",
@@ -80,6 +86,7 @@
     "Application.LinearSearch.executor": "Run",
     "Application.LinkedListChallenge.executor": "Run",
     "Application.List.executor": "Run",
+    "Application.LowerBound.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
     "Application.Maps.executor": "Run",
@@ -104,6 +111,7 @@
     "Application.PQ.executor": "Run",
     "Application.PassingNumbers.executor": "Run",
     "Application.Pattern_01.executor": "Run",
+    "Application.PivotElement.executor": "Run",
     "Application.Prime.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
     "Application.PrintReverse.executor": "Run",
@@ -117,6 +125,7 @@
     "Application.Reverse_02.executor": "Run",
     "Application.Reverse_2.executor": "Run",
     "Application.SearchInaRotatedSortedArray.executor": "Run",
+    "Application.SearchInsertPosition.executor": "Run",
     "Application.SetImpl.executor": "Run",
     "Application.Shadowing.executor": "Run",
     "Application.Sort.executor": "Run",
@@ -134,6 +143,7 @@
     "Application.basics.executor": "Run",
     "Application.checking_case.executor": "Run",
     "Application.fact.executor": "Run",
+    "Application.isSorted.executor": "Run",
     "Application.multiAl.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -156,13 +166,13 @@
       <recent name="OOPS.Lambdas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Pattern_01">
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.LinearSearch" />
+  <component name="RunManager" selected="Application.SearchInsertPosition">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.BubbleSort" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pattern_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Pattern_01" />
+    <configuration name="LowerBound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.LowerBound" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReturnAnArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.ReturnAnArrayList" />
+    <configuration name="PivotElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.PivotElement" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,12 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInaRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.SearchInaRotatedSortedArray" />
+    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.SearchInsertPosition" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,12 +219,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.SortedArray" />
+    <configuration name="isSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.isSorted" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Pattern_01" />
-        <item itemvalue="Application.ReturnAnArrayList" />
-        <item itemvalue="Application.SearchInaRotatedSortedArray" />
-        <item itemvalue="Application.LinearSearch" />
-        <item itemvalue="Application.SortedArray" />
+        <item itemvalue="Application.SearchInsertPosition" />
+        <item itemvalue="Application.LowerBound" />
+        <item itemvalue="Application.isSorted" />
+        <item itemvalue="Application.PivotElement" />
+        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -544,7 +554,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711096810087</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1711147242727</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1711147242727</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
