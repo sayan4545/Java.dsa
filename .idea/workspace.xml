@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a2c3195-8c4d-4f03-92cf-988583e2490a" name="Changes" comment="java basics and DSA">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/LowerBound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/PivotElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/SearchInsertPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/isSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Count_Ones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/FirstAndLastOccurence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/SearchInARotatedSortedArray1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +72,7 @@
     "Application.Factorial.executor": "Run",
     "Application.FibonacciNumber.executor": "Run",
     "Application.Fibonacci_series.executor": "Run",
+    "Application.FirstAndLastOccurence.executor": "Run",
     "Application.HashSetimpl.executor": "Run",
     "Application.Hello_World.executor": "Run",
     "Application.Implementation.executor": "Run",
@@ -124,6 +121,7 @@
     "Application.ReverseArrayList.executor": "Run",
     "Application.Reverse_02.executor": "Run",
     "Application.Reverse_2.executor": "Run",
+    "Application.SearchInARotatedSortedArray.executor": "Run",
     "Application.SearchInaRotatedSortedArray.executor": "Run",
     "Application.SearchInsertPosition.executor": "Run",
     "Application.SetImpl.executor": "Run",
@@ -166,13 +164,13 @@
       <recent name="OOPS.Lambdas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchInsertPosition">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.BubbleSort" />
+  <component name="RunManager" selected="Application.SearchInARotatedSortedArray">
+    <configuration name="FirstAndLastOccurence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.FirstAndLastOccurence" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,8 +191,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PivotElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.PivotElement" />
+    <configuration name="SearchInARotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.SearchInARotatedSortedArray" />
       <module name="DSA_FINAL" />
       <extension name="coverage">
         <pattern>
@@ -234,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInARotatedSortedArray" />
+        <item itemvalue="Application.FirstAndLastOccurence" />
         <item itemvalue="Application.SearchInsertPosition" />
         <item itemvalue="Application.LowerBound" />
         <item itemvalue="Application.isSorted" />
-        <item itemvalue="Application.PivotElement" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -562,7 +560,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711147242727</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="java basics and DSA">
+      <option name="closed" value="true" />
+      <created>1711320560897</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1711320560897</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
